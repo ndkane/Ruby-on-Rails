@@ -3,8 +3,14 @@
 %ol
   -@blogs.each do |blog|
     %li
-      =blog.blogname
+      %h2
+        =blog.blogname
+      %div
+        %p
+          =blog.subheading
+        
+        %p
+          =blog.currentdate
 
-%div
-  %p
-    
+        %p
+          =blog.content
