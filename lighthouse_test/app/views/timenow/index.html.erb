@@ -1,0 +1,19 @@
+<h1>The Time now is:</h1>
+<p>
+	<%= @time.strftime("%H:%M:%S") %>
+</p>
+
+<h1> The Date is:</h1>
+
+<p>
+<%= @time.strftime("%A %B %d") %>
+</p>
+
+<h1>You:</h1>
+
+<p>
+<%= @name + " " + @age %>
+</p>
+
+<p>
+<%= "Name: #{@name} Age: #{@age}" %>
